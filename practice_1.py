@@ -16,6 +16,9 @@ def count_C(x):
 def count_D(x):
     return [value for value in range(0, x, 2)]
 
+def count_F(x):
+    return [value**2 for value in range(0, x, 3)]
+
 
 a = list(map(count_V, [29, 32, 16, 23, 87, 36]))
 
