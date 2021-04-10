@@ -1,11 +1,13 @@
 
 
+def count_A(x):
+    return [value*value for value in range(0, x)]
+
 def count_V(x):
     return x**(1/2) + x**2 / (x**(1/2))
 
 def count_B(x):
     return x**2
-
 
 def count_Z(x):
     return (x+x**2) / (x-x**2)
